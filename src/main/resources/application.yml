@@ -17,3 +17,19 @@ spring:
             hibernate.format_sql: false
         hibernate:
             ddl-auto: update
+    # Rabbit MQ server properties
+    rabbitmq:
+        host : localhost
+        port: 5672
+        username: guest
+        password: guest
+server:
+    port : 9090
+
+rabbitmq:
+    queue:
+        name: ms_notification
+    exchange:
+        name: ms_notification_exchange
+    routing:
+        key: ms_notification_routing_key
