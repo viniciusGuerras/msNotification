@@ -18,6 +18,5 @@ public class NotificationLog implements Serializable{
     private String id;
     private String email;
     private String event;
-    @JsonFormat(pattern = "yyyy-MM-dd")
     private LocalDate date;
 }
