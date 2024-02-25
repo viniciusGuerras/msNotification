@@ -1,4 +1,4 @@
-package com.compassuol.sp.challenge.msNotificiation;
+package com.compassuol.sp.challenge.msNotification;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
