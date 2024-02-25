@@ -3,26 +3,19 @@ spring:
         locale-resolver: fixed
         locale: pt_BR
 
-    # MYSQL
-    datasource:
-        driver-class-name: com.mysql.cj.jdbc.Driver
-        url: jdbc:mysql://localhost:3306/msnotification?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=America/Sao_Paulo
-        username: root
-        password:
-
-    # JPA
-    jpa:
-        show-sql: true
-        properties:
-            hibernate.format_sql: false
-        hibernate:
-            ddl-auto: update
     # Rabbit MQ server properties
     rabbitmq:
         host : localhost
         port: 5672
         username: guest
         password: guest
+
+    data:
+        mongodb:
+            uri:  "mongodb+srv://vinicius:jUa5m742S!s#_uK@msnotification.cyhutko.mongodb.net/?retryWrites=true&w=majority&appName=msnotification"
+            port: 27017
+            database: msnotification
+
 server:
     port : 9090
 

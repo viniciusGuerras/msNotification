@@ -1,4 +1,4 @@
-package com.compassuol.sp.challenge.msNotificiation.config;
+package com.compassuol.sp.challenge.msNotification.config;
 
 import org.springframework.amqp.core.*;
 import org.springframework.beans.factory.annotation.Value;
