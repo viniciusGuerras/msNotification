@@ -1,4 +1,4 @@
-package com.compassuol.sp.challenge.msNotification.rabbitMq;
+package com.compassuol.sp.challenge.msNotification.domain.rabbitMq;
 
 
 import com.compassuol.sp.challenge.msNotification.domain.service.NotificationService;
