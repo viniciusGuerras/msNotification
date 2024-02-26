@@ -1,6 +1,6 @@
 package com.compassuol.sp.challenge.msNotification.domain.repository;
 
-import com.compassuol.sp.challenge.msNotification.domain.entity.NotificationLog;
+import com.compassuol.sp.challenge.msNotification.domain.model.NotificationLog;
 import org.springframework.data.mongodb.repository.MongoRepository;
 import org.springframework.stereotype.Repository;
 

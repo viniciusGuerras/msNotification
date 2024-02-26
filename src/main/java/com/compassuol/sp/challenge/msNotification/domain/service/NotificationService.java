@@ -1,6 +1,6 @@
 package com.compassuol.sp.challenge.msNotification.domain.service;
 
-import com.compassuol.sp.challenge.msNotification.domain.entity.NotificationLog;
+import com.compassuol.sp.challenge.msNotification.domain.model.NotificationLog;
 import com.compassuol.sp.challenge.msNotification.domain.repository.NotificationRepository;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
