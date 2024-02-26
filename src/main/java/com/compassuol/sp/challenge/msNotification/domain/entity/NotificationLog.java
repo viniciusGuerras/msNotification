@@ -9,7 +9,8 @@ import org.springframework.data.mongodb.core.mapping.Document;
 
 import java.io.Serializable;
 
-import java.time.LocalDate;
+import java.util.Date;
+
 @Document( "notifications")
 @Data @AllArgsConstructor
 @NoArgsConstructor
@@ -18,5 +19,5 @@ public class NotificationLog implements Serializable{
     private String id;
     private String email;
     private String event;
-    private LocalDate date;
+    private Date date;
 }
