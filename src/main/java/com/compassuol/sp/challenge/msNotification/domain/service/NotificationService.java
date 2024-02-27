@@ -1,5 +1,6 @@
 package com.compassuol.sp.challenge.msNotification.domain.service;
 
+import com.compassuol.sp.challenge.msNotification.domain.exceptions.MessageConversionException;
 import com.compassuol.sp.challenge.msNotification.domain.model.NotificationLog;
 import com.compassuol.sp.challenge.msNotification.domain.repository.NotificationRepository;
 import com.fasterxml.jackson.core.JsonProcessingException;
@@ -23,7 +24,7 @@ public class NotificationService {
             repository.insert(notification);
         }
         catch (JsonProcessingException ex){
-            throw new RuntimeException("parsing error");
+            throw new MessageConversionException("parsing error");
         }
     }
 
